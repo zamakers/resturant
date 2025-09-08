@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Drinks Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+    }
+
+    header {
+      background: #009688;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .drinks-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .drink-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .drink-card:hover {
+      transform: scale(1.05);
+    }
+
+    .drink-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .drink-content {
+      padding: 15px;
+    }
+
+    .drink-content h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #009688;
+      margin: 10px 0;
+    }
+
+    .order-btn {
+      background: #009688;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .order-btn:hover {
+      background: #00695c;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🥤 Refreshing Drinks</h1>
+  </header>
+
+  <div class="drinks-container">
+
+    <div class="drink-card">
+      <img src="cola.jpg" alt="Coca Cola">
+      <div class="drink-content">
+        <h3>Coca Cola</h3>
+        <div class="price">Rs. 120</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="pepsi.jpg" alt="Pepsi">
+      <div class="drink-content">
+        <h3>Pepsi</h3>
+        <div class="price">Rs. 120</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="sprite.jpg" alt="Sprite">
+      <div class="drink-content">
+        <h3>Sprite</h3>
+        <div class="price">Rs. 130</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="fanta.jpg" alt="Fanta">
+      <div class="drink-content">
+        <h3>Fanta</h3>
+        <div class="price">Rs. 130</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="redbull.jpg" alt="Red Bull">
+      <div class="drink-content">
+        <h3>Red Bull</h3>
+        <div class="price">Rs. 350</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="coffee.jpg" alt="Cold Coffee">
+      <div class="drink-content">
+        <h3>Cold Coffee</h3>
+        <div class="price">Rs. 220</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="lime.jpg" alt="Fresh Lime">
+      <div class="drink-content">
+        <h3>Fresh Lime</h3>
+        <div class="price">Rs. 180</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="shake.jpg" alt="Mango Shake">
+      <div class="drink-content">
+        <h3>Mango Shake</h3>
+        <div class="price">Rs. 250</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="banana-shake.jpg" alt="Banana Shake">
+      <div class="drink-content">
+        <h3>Banana Shake</h3>
+        <div class="price">Rs. 240</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="drink-card">
+      <img src="water.jpg" alt="Mineral Water">
+      <div class="drink-content">
+        <h3>Mineral Water</h3>
+        <div class="price">Rs. 80</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

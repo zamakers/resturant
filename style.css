@@ -1,0 +1,465 @@
+header {
+    background-color: rgb(82, 82, 206);
+    height: 12rem;
+
+}
+
+.nav-bar {
+    height: 130px;
+    width: 1320px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    /* navbar ke andar sab vertically center ho jayenge */
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 9rem;
+    width: 15rem;
+    margin-left: 2rem;
+    margin-top: 70px;
+    background-image: url(chatimg.png);
+    background-size: cover;
+    margin-bottom: 80px;
+    font-size: 50px;
+
+}
+
+.search-bar {
+    height: 40px;
+    width: 40rem;
+    background-color: white;
+    display: flex;
+    /* 👈 Yeh line */
+    align-items: center;
+    /* 👈 Icon aur input ko same line par karegi */
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: none;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    /* 👈 input ko pura space dega, icon right side pe rahega */
+}
+
+.logo1 {
+    color: darkgray;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.b1 {
+    margin-left: 4rem;
+    display: flex;
+    /* margin-bottom: 10px; */
+}
+
+.b1 button {
+
+    background-color: wheat;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 50px;
+    height: 30px;
+    /* Har button ke baad space */
+    width: 100px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+
+.b1 button:last-child {
+    margin-right: 0;
+    /* Akhri button pe extra space na ho */
+}
+
+/* aecond part */
+body {
+    width: 1320px;
+}
+
+.second {
+    height: 70px;
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.second a {
+    flex: 1;
+    /* sab equal width */
+    text-align: center;
+    /* text center me */
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 10px 0;
+    /* thoda space click area ke liye */
+    transition: 0.3s;
+
+
+}
+
+.second a:hover {
+    color: black;
+    /* text ka color white ho jaye */
+    background-color: tomato;
+    /* background color change ho jaye */
+    border-radius: 4px;
+    text-decoration: underline;
+    /* thoda gol corner */
+    /* color: white; */
+}
+
+/* show */
+.show {
+    height: 20px;
+
+
+}
+
+.show1 {
+    height: 18rem;
+
+    border-radius: 5px;
+    background-image: url("show.jpg");
+    background-size: cover;
+    width: 1320px;
+
+}
+
+.show2 {
+    margin-left: 40px;
+}
+
+.show2 h2 {
+    margin-bottom: 10px;
+}
+
+.show2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: lightgrey;
+    margin-top: 5px;
+}
+
+
+
+.show3 {
+    height: 20rem;
+    display: flex;
+    /* width: 1320px; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 30px;
+
+}
+
+.box {
+    height: 20rem;
+    width: 18rem;
+    border-radius: 11px;
+    background-color: lightgray;
+
+}
+
+.img1 {
+    height: 10rem;
+    background-image: url("sale.jpg");
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.product-title {
+    display: flex;
+    align-items: center;
+    /* vertically center */
+    justify-content: space-between;
+    /* h4 left, heart right */
+    width: 100%;
+    /* poore container ke andar fit ho jaye */
+}
+
+.product-title h4 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.hert img {
+    height: 25px;
+    width: 30px;
+    margin: 0;
+    /* margin-left hata do */
+    padding-bottom: 0;
+}
+
+
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+h3 {
+    color: blue;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* images */
+.img2 {
+    height: 10rem;
+    background-image: url("sale1.jpg");
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.img3 {
+    height: 10rem;
+    background-image: url("sale4.jpg");
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.img4 {
+    height: 10rem;
+    background-image: url("sale3.jpg");
+    background-size: cover;
+    border-radius: 11px;
+}
+
+/* show4 */
+
+.show4 {
+    margin-left: 40px;
+}
+
+.show4 h2 {
+    margin-bottom: 10px;
+
+}
+
+.show4::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: lightgrey;
+    margin-top: 5px;
+}
+
+.show5 {
+    height: 20rem;
+    display: flex;
+    /* width: 1320px; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+/* second images */
+.img5 {
+    height: 10rem;
+    background-image: url("img5.jpg");
+    background-size: cover;
+    border-radius: 11px;
+
+}
+
+.img6 {
+    height: 10rem;
+    background-image: url("img6.jpg");
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.img7 {
+    height: 10rem;
+    background-image: url("img7.jpg");
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.img8 {
+    height: 10rem;
+    background-image: url("img8.jpg");
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.blank {
+    height: 40px;
+
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    /* horizontally center */
+    margin-top: 50px;
+    /* thoda upar se gap */
+}
+
+.but1 {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff5722;
+    /* orange shade (food theme) */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.but1:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+
+/* paras */
+.para {
+
+    padding: 20px;
+    background-color: lightgray;
+    margin: 20px auto;
+    line-height: 1.6;
+    /* background-color: #fff; */
+    margin-top: 0px;
+    border-radius: 8px;
+}
+
+.para h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.para h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.para h4 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.para p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.para ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.para li {
+    margin-bottom: 8px;
+}
+
+.blanck2 {
+    height: 20px;
+
+}
+
+.payment {
+    background-color: lightgray;
+    padding: 15px 20px;
+}
+
+.payment-header {
+    display: flex;
+    justify-content: space-between;
+    /* Payment left, Follow right */
+    align-items: flex-start;
+}
+
+.payment-box h2,
+.follow-box h3 {
+    margin-right: 150px;
+    font-size: 32px;
+    color: black;
+    margin-top: 08px;
+}
+
+/* Payment method images */
+.payment-images {
+    display: flex;
+    justify-content: space-between; /* images ke darmiyan equal space */
+    align-items: center;
+}
+
+.payment-images img {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+}
+
+
+/* Social media icons */
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+    background-color: transparent;
+    /* har icon ke beech gap */
+}
+
+/* last icon ke baad extra margin remove */
+.social-icons img:last-child {
+    margin-right: 0;
+}
+/* copy right */
+.blank3{
+    height: 40px;
+    
+}
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222; /* dark background */
+    color: #fff;            /* white text */
+    font-size: 14px;
+}
+
+.footer span {
+    color: #ff5722;  /* highlight (orange food theme) */
+    font-weight: bold;
+}
+

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Deals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+    }
+
+    header {
+      background: tomato;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .deals-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .deal-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .deal-card:hover {
+      transform: scale(1.05);
+    }
+
+    .deal-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .deal-content {
+      padding: 15px;
+    }
+
+    .deal-content h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .deal-content p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: tomato;
+      margin: 10px 0;
+    }
+
+    .order-btn {
+      background: tomato;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .order-btn:hover {
+      background: darkred;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 Special Food Deals 🔥</h1>
+  </header>
+
+  <div class="deals-container">
+
+    <div class="deal-card">
+      <img src="pizza-deal.jpg" alt="Pizza Deal">
+      <div class="deal-content">
+        <h3>Pizza Lover Deal</h3>
+        <p>1 Large Pizza + 1.5L Drink</p>
+        <div class="price">Rs. 1499</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="burger-deal.jpg" alt="Burger Deal">
+      <div class="deal-content">
+        <h3>Burger Combo</h3>
+        <p>2 Zinger Burgers + Fries + 1 Drink</p>
+        <div class="price">Rs. 999</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="family-deal.jpg" alt="Family Deal">
+      <div class="deal-content">
+        <h3>Family Feast</h3>
+        <p>2 Large Pizzas + 1 Bucket Fries + 2 Drinks</p>
+        <div class="price">Rs. 2499</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="snack-deal.jpg" alt="Snack Deal">
+      <div class="deal-content">
+        <h3>Snack Time Deal</h3>
+        <p>1 Sandwich + Fries + Cold Coffee</p>
+        <div class="price">Rs. 699</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="midnight-deal.jpg" alt="Midnight Deal">
+      <div class="deal-content">
+        <h3>Midnight Deal</h3>
+        <p>1 Regular Pizza + 2 Drinks</p>
+        <div class="price">Rs. 999</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="student-deal.jpg" alt="Student Deal">
+      <div class="deal-content">
+        <h3>Student Special</h3>
+        <p>1 Zinger Burger + Fries + Drink</p>
+        <div class="price">Rs. 499</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="couple-deal.jpg" alt="Couple Deal">
+      <div class="deal-content">
+        <h3>Couple Deal</h3>
+        <p>2 Regular Burgers + 2 Drinks</p>
+        <div class="price">Rs. 899</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="party-deal.jpg" alt="Party Deal">
+      <div class="deal-content">
+        <h3>Party Deal</h3>
+        <p>3 Large Pizzas + 3 Drinks + 2 Buckets Fries</p>
+        <div class="price">Rs. 3999</div>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
